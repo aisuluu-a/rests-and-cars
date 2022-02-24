@@ -25,10 +25,8 @@ class Restaurant {
             if ( currentHour >= 9 && currentHour <= 23) {
                 document.write(`<br> ${this.name} is open <br>`);
             } else {
-                document.write(`<br> ${this.name} is closed <br>`);
-                //return ` ${this.name} is closed`
-            }
-            
+                document.write(`<br> ${this.name} is closed <br>`);  
+            }   
         }
     }
 
